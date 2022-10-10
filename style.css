@@ -22,6 +22,7 @@ header {
     margin: 0px;
     background-color: #37465b;
     display: flex;
+    z-index: 1;
 }
 
 a {
@@ -141,18 +142,19 @@ div .secondDiv h2 {
 }
 
 .reserver {
-    border: solid red;
-    height: 100%;
-    width: 100%;
-    margin-left: 780px;
+    height: 4%;
+    width: 7%;
+    margin-left: 700px;
     margin-right: 150px;
     text-align: center;
     margin: 1200px;
-    position: relative;
-    margin-top: 50%;
+    position: absolute;
+    margin-top: 40px;
     color: #D2B357;
     background: #37465b;
-    border-radius: 25%;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    z-index: 0;
 }
 
 .decouvrir img {
@@ -160,7 +162,7 @@ div .secondDiv h2 {
     width: 600x;
     height: 400px;
     margin: 50%;
-    margin-top: -60%;
+    margin-top: -56%;
     margin-left: 845px;
 }
 
@@ -229,7 +231,7 @@ div .secondDiv h2 {
 .footer {
     background-color: rgb(193, 193, 193);
     width: 117.5%;
-    height: 300px;
+    height: 200px;
     margin-top: 5%;
     display: flex;
     justify-content: space-around;
@@ -253,7 +255,7 @@ div .secondDiv h2 {
     display: flex;
     margin-top: 20px;
     width: 120px;
-    margin-left: -30%;
+    margin-left: -37%;
     margin-right: -720px;
     flex-direction: column;
    
@@ -263,6 +265,6 @@ div .secondDiv h2 {
     /*border: solid red;*/
     margin: 2px;
     width: 160px;
-    margin-top: 115px;
-    margin-left: -350px;
+    margin-top: 75px;
+    margin-left: -250px;
 }
