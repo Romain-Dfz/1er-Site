@@ -11,31 +11,30 @@ body {
 }
 
 header {
-    width: 120.5%;
+    width: 100%;
     height: 160px;
     background-color: #9cb4f1;
     display: flex;
-    margin-top: 50px;
     position: fixed;
     top: 0;
     padding: 0;
-    margin: 0px;
+    margin-top: 0%;
     background-color: #37465b;
     display: flex;
     z-index: 1;
+   /* border: solid red;*/
 }
 
 a {
-    width: 215px;
     height: 60px;
-    margin: 0%;
-    margin-right: 0%;
+    width: 110px;
     text-decoration: none;
     justify-content: center;
+    border: solid red;
 }
 
 header div {
-    width: 82%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -49,7 +48,7 @@ header div {
 }
 
 header nav {
-    width: -50%;
+    width: -30%;
     height: 100%;
     display: flex;
 }
@@ -57,34 +56,33 @@ header nav {
 header a {
     text-decoration: center auto;
     color: #D2B357;
-    margin: -20px;
     font-size: 1.4rem;
     text-align: center;
-    margin-top: 30%;
+    margin-top: 80%;
     margin-right: 50%;
-    margin-left: 30%;
+    margin-left: 5%;
 }
 
 header nav div {
     text-align: justify;
     width: 100%;
-    height: 5%;
-    margin-left: 21.5%;
+    height: 50%;
+    margin-left: 32%;
     margin-top: 5%;
 }
 
 .logo img {
     width: 150px;
     height: 150.9px;
-    margin-left: 0%;
-    margin-top: 32%;
+    margin-left: 380%;
+    margin-top: -720%;
 }
 
 h1 {
     text-align: center;
     margin: -1%;
-    margin-top: 13%;
-    margin-left: 57%;
+    margin-top: 15%;
+    margin-left: 60%;
     margin-right: 37%;
     width: 120px;
     height: 60px;
@@ -100,7 +98,7 @@ h1 {
     margin-inline: 0px;
     margin: 0%;
     margin-top: 0%;
-    margin-left: 38%;
+    margin-left: 50%;
     margin-bottom: 3%;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
@@ -112,7 +110,8 @@ img {
     width: 793px;
     height: 400px;
     border-radius: 10px 10px 10px 10px;
-    margin-left: -70px;
+    margin-left: -450px;
+    /*border: solid red;*/
 }
 
 div .secondDiv h2 {
@@ -126,12 +125,13 @@ div .secondDiv h2 {
     height: 37px;
     background-color: #37465b;
     color: #D2B357;
+    /*border: solid red;*/
 }
 
 .secondDiv {
     width: 600px;
     height: 400px;
-    margin-left: 9.5%;
+    margin-left: 5%;
     margin-top: 5%;
     color: #D2B357;
     border-radius: 10px 10px 10px 10px;
@@ -139,15 +139,16 @@ div .secondDiv h2 {
     line-height: 1.6;
     text-align: center;
     font-size: 1.1em;
+    /*border: solid red;*/
 }
 
 .reserver {
     height: 4%;
     width: 7%;
-    margin-left: 700px;
+    margin-left: 600px;
     margin-right: 150px;
     text-align: center;
-    margin: 1200px;
+    margin: 960px;
     position: absolute;
     margin-top: 40px;
     color: #D2B357;
@@ -155,26 +156,28 @@ div .secondDiv h2 {
     border-radius: 10px 10px 10px 10px;
     display: flex;
     z-index: 0;
+    /*border: solid red;*/
 }
 
 .decouvrir img {
     text-align: right;
-    width: 600x;
+    width: 600px;
     height: 400px;
     margin: 50%;
-    margin-top: -56%;
-    margin-left: 845px;
+    margin-top: -60%;
+    margin-left: 695px;
+    /*border: solid rgb(255, 0, 0);*/
 }
 
 .troisiemeDiv h3 {
     text-align: center;
     margin: 0%;
-    margin-top: 4%;
+    margin-top: 6%;
     margin-left: 9.5%;
     color: #D2B357;
     border-radius: 10px 10px 0px 0px;
     background-color: #37465b;
-    width: 1620px;
+    width: 1200px;
     height: 50%;
 }
 
@@ -185,7 +188,8 @@ div .secondDiv h2 {
     border-radius: 0px 0px 10px 10px;
     text-align: center;
     height: 140px;
-    width: 1620px;
+    width: 1200px;
+    /*border: solid red;*/
 }
 
 .chevre img {
@@ -230,7 +234,7 @@ div .secondDiv h2 {
 
 .footer {
     background-color: rgb(193, 193, 193);
-    width: 117.5%;
+    width: 126.6%;
     height: 200px;
     margin-top: 5%;
     display: flex;
@@ -253,9 +257,9 @@ div .secondDiv h2 {
 .aide {
     /*border: solid red;*/
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 120px;
-    margin-left: -37%;
+    margin-left: -45%;
     margin-right: -720px;
     flex-direction: column;
    
